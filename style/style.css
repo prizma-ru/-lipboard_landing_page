@@ -1,0 +1,57 @@
+:root{
+/*## Colors
+
+### Primary*/
+
+--strong-cyan: hsl(171, 66%, 44%);
+--light-blue: hsl(233, 100%, 69%);
+
+/*### Neutral*/
+
+--dark-grayish-blue: hsl(210, 10%, 33%);
+--grayish-blue: hsl(201, 11%, 66%);
+}
+
+
+/*Обнуление*/
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+} 
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+}
+.container{
+    width: 1100px; /*ширина блока*/
+    max-width: 100%; /*максимальный размер 1440пх*/
+    margin: 20px auto;
+}
+.logo{
+    text-align: center;
+    margin: 130px auto 70px ;
+}
+.download__conten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 700px;  
+    width: 100%; 
+}
+
+.dowload__title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.download__text{
+    font-size: 20px;
+    text-align: center;
+}
