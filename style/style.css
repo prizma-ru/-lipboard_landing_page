@@ -37,10 +37,13 @@ body{
     max-width: 100%; /*максимальный размер 1440пх*/
     margin: 20px auto;
 }
+/*-----------------------logo------------------*/
 .logo{
     text-align: center;
     margin: 130px auto 50px ;
 }
+
+/*-----------------------logo------------------*/
 
 /*-----------------------download------------------*/
 .download__content{
@@ -67,7 +70,7 @@ body{
     display: flex;
 	align-items: center;
     justify-content: space-between;
-    max-width: 470px;
+    max-width: 500px;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -75,8 +78,8 @@ body{
 .btn{
     flex:0.5;
     background-color: var(--light-blue);
-    border-radius: 30px; 
-    padding: 15px 0;
+    border-radius: 40px; 
+    padding: 20px 0;
     border: none;
     margin-left: 20px;
     font-size: 18px;
@@ -88,8 +91,38 @@ body{
     background-color: var(--strong-cyan);
 
 }
-/*-----------------------download------------------*/
+/*-----------------------desktop------------------*/
+.desktop{
+    text-align: left;
+}
+.desktop__title{
 
+}
+.desktop__text{
+
+}
+.desktop .container{
+    width: 1440px; /*ширина блока*/
+    max-width: 100%; /*максимальный размер 1440пх*/
+}
+.desktop__box{
+    display: flex;
+    justify-content: space-between;
+}
+.desktop_info{
+margin: 100px 150px;
+}
+.desktop_info h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.desktop_info p{
+
+}
+/*-----------------------desktop------------------*/
+
+/*-----------------------devices------------------*/
 .devices{
     text-align: center;
 }
@@ -107,7 +140,7 @@ body{
     font-weight: 400;
     
 }
-
+/*-----------------------devices------------------*/
 
 .items__items{
     display: flex;
