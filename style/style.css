@@ -92,11 +92,21 @@ body{
     background-color: var(--strong-cyan);
 
 }
+.bottom-big{
+    margin-bottom: 180px;
+}
+
+.title-smoll{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+/*-----------------------download------------------*/
+
 /*-----------------------desktop------------------*/
 
-.desktop{
-   
-}
 
 .desktop__title{
     max-width: 700px;
@@ -166,7 +176,7 @@ text-align: left;
 .devices h3{
     font-size: 35px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .devices p{
     font-size: 18px;
@@ -178,7 +188,7 @@ text-align: left;
 }
 
 .devices .container >p{
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 
 }
 /*-----------------------devices------------------*/
@@ -192,7 +202,7 @@ text-align: left;
 }
 .items_item{
     flex: 33.33333%;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 .items_item h4{
     font-size: 24px;
@@ -209,13 +219,62 @@ text-align: left;
 }
 
 .items_item div img{
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
+/*-----------------------devices------------------*/
 .vendor_flex{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 135px;
-   
-
+    margin-bottom: 145px;  
 }
+
+/*-----------------------footer------------------*/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/*
+.align-start {
+	align-items: flex-start; /*Флексы выравниваются в начале поперечной оси контейнера.
+}*/
+.logo-smoll{
+    width: 50px;
+    height: 50px;
+    
+}
+.nav ul{
+    list-style-type: none; /*Универсальное свойство, позволяющее одновременно задать стиль маркера, его положение, а также изображение, которое будет использоваться в качестве маркера. Для подробного ознакомления смотрите информацию о каждом свойстве list-style-type, list-style-position и list-style-image отдельно.*/
+}
+.nav_menu{
+    flex: 0.5
+}
+.nav__menu > li{
+    margin-bottom: 20px;
+}
+.nav__menu > li:hover{
+    color: var(--strong-cyan);
+}
+.nav__media{
+    display: flex;
+    flex: 0.25;
+    
+    
+    margin-left: 100px;
+    
+}
+.nav__media li> a{
+    text-align: right;
+    color: var(--dark-grayish-blue);
+    font-size: 25px;
+    line-height: 2;
+    padding: 0 15px;
+}
+
+.nav__media li> a:hover{
+    color: var(--strong-cyan);
+}
+
+/*-----------------------footer------------------*/
